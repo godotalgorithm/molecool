@@ -27,6 +27,7 @@ def calculate_distance(rA, rB):
 
     dist_vec = rA - rB
     distance = np.linalg.norm(dist_vec)
+    distance *= 2.0
 
     return distance
 
